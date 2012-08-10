@@ -1,0 +1,21 @@
+{
+  "name": "redis-nodes",
+  "version": "0.0.0",
+  "description": "A Node.js framework that uses redis pub/sub as an intermediary between multiple Node processes",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/UmbraEngineering/redis-nodes"
+  },
+  "keywords": [
+    "framework",
+    "redis",
+    "pub-sub",
+    "processes"
+  ],
+  "author": "James Brumond",
+  "license": "MIT/GPL"
+}

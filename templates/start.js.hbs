@@ -1,0 +1,19 @@
+
+// Bootstrap
+require(nodes.SETUP_FILE)('{{ name }}');
+
+var nodes  = require('redis-nodes');
+var proc   = nodes.proc;
+
+// ------------------------------------------------------------------
+
+{{#each events }}
+proc.on('{{ this }}', function(data, callback) {
+	//
+	// TODO
+	//
+});
+{{/each}}
+
+
+
